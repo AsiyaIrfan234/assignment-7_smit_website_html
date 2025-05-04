@@ -8,10 +8,9 @@
 <body>
 
 <!-- Navigation Bar with Centered Logo -->
-<table width="100%" bgcolor="black" cellpadding="10" style="font-family: Arial, sans-serif; font-size: 14px;color: white;">
-  <!-- Top Navigation Links -->
-  <tr>
-    <td style="padding-left: 280px;">
+<table width="100%" cellpadding="10">
+    <td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <b>BOOK</b> •&nbsp;&nbsp;
       <b>MANAGE</b> &nbsp;&nbsp;
       <b>EXPERIENCE</b> &nbsp;&nbsp;
@@ -19,17 +18,14 @@
       <b>LOYALTY</b> &nbsp;&nbsp;
       <b>HELP</b>
     </td>
-  </tr>
-
-  <tr align="right">
-    <td><b>PK</b></td>
-    <td><b>LOGIN</b></td>
+    <td align="right">
+      <b>PK</b> &nbsp;&nbsp;
+      <b>LOGIN</b>
+    </td>
   </tr>
 </table>
 
-
-  <!-- Bottom Navigation Links -->
-<table width="100%" bgcolor="#f5f5f5" cellpadding="10" style="font-family: Arial, sans-serif; font-size: 14px;">
+<table width="100%" bgcolor="#f5f5f5" cellpadding="10">
   <tr>
     <td style="padding-left: 280px;">
       <b>Book</b> •&nbsp;&nbsp; About booking online
@@ -37,25 +33,24 @@
   </tr>
 </table>
 
-<!-- hero section -->
-
 <!-- Hero section -->
-<table style="margin: auto; font-family: Arial, sans-serif;" cellpadding="10">
+ <br><br>
+<table align="center">
   <tr>
     <td align="center">Book</td>
   </tr>
   <tr>
-    <th align="center" style="font-size: 24px; font-weight: bold;">Book a flight</th>
+    <th align="center">Book a flight</th>
   </tr>
   
   <tr>
     <td align="center">Search for Emirates flights and book online. See our routes <br> and schedules, and discover more about the experience you <br> can look forward to on board.</td>
   </tr>
 </table>
-<br>
+<br><br>
 
 <!-- Flight Form Section with 2 Rows of Dropdowns -->
-<table align="center" width="80%" border="1" cellpadding="10" cellspacing="0" style="font-family: Arial, sans-serif;">
+<table align="center" width="80%" border="1" cellpadding="10" cellspacing="0">
   <tr bgcolor="white">
     <td colspan="3">
       <b><u>Return</u></b> &nbsp; One way &nbsp; Multi-city
@@ -67,18 +62,18 @@
     </td>
   </tr>
   <tr>
-    <td width="33%" style="border-radius: 8px; overflow: hidden;">
+    <td width="33%" >
       <label for="departure">Departure airport</label><br>
-      <select id="departure" style="width: 100%; border-radius: 8px;">
+      <select id="departure">
         <option>Karachi (KHI)</option>
         <option>Lahore (LHE)</option>
         <option>Islamabad (ISB)</option>
       </select>
     </td>
     
-    <td width="33%" style="border-radius: 8px; overflow: hidden;">
+    <td width="33%">
       <label for="arrival">Arrival airport</label><br>
-      <select id="arrival" style="width: 100%; border-radius: 8px;">
+      <select id="arrival" >
         <option>Select destination</option>
         <option>Dubai (DXB)</option>
         <option>London (LHR)</option>
@@ -86,47 +81,48 @@
       </select>
     </td>
     
-    <td width="33%" style="border-radius: 8px; overflow: hidden;">
+    <td width="33%">
       <label>Departing - Returning</label><br>
-      <input type="date" style="width: 45%; border-radius: 8px;"> - 
-      <input type="date" style="width: 45%; border-radius: 8px;">
+      <input type="date"> 
+      <input type="date">
     </td>
   </tr>
   
   <!-- Second row: Passengers, Class, Button -->
   <tr>
-    <td width="33%" style="border-radius: 8px; overflow: hidden;">
+    <td width="33%" >
       <label for="passengers">Passengers</label><br>
-      <select id="passengers" style="width: 100%; border-radius: 8px;">
+      <select id="passengers">
         <option>1 Adult</option>
         <option>2 Adults</option>
         <option>1 Adult, 1 Child</option>
       </select>
     </td>
     
-    <td width="33%" style="border-radius: 8px; overflow: hidden;">
+    <td width="33%">
       <label for="class">Class</label><br>
-      <select id="class" style="width: 100%; border-radius: 8px;">
+      <select id="class">
         <option>Economy Class</option>
         <option>Business Class</option>
         <option>First Class</option>
       </select>
     </td>
-    
-    <td width="33%" align="right" valign="bottom" style="border-radius: 8px; overflow: hidden;">
-      <br>
-      <button style="padding:10px 20px; background-color:red; color:white; border:none; border-radius: 8px;">Search flights</button>
-    </td>
-
+    <td align="center" bgcolor="red" >Search flights</td>
+    <tr>
+      <td colspan="3">
+        <label>Use promotional code</label><br>
+      </td>
+    </tr>
+    </table>
 <!-- How to Book Section -->
-<table align="center" width="80%" cellpadding="20" cellspacing="0" border="0">
+<table align="center" width="84%" cellpadding="20" cellspacing="0" border="0">
   <tr>
     <td>
-      <table width="100%" cellpadding="10" border="1" style="border-collapse: collapse; box-shadow: 2px 2px 8px #ccc;">
+      <table width="100%" cellpadding="10" border="1">
         <tr>
           <td>
             <h3>How to book a flight ticket with Emirates</h3>
-            <hr color="red" width="50" align="left">
+            <hr color="red" width="60" align="left">
             <b>Book a flight ticket online</b><br>
             <p>
               To find the right air ticket for your trip, just enter the location you’re flying from and your flight destination.
@@ -147,190 +143,109 @@
   </tr>
 </table>
 
-
-
-<footer style="background-color: #2b2b2b; color: #fff; padding: 40px 20px; font-family: Arial, sans-serif;">
-  <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div>
-      <h4>Travel</h4>
-      <ul>
-        <li>Baggage</li>
-        <li>Visa and passport information</li>
-        <li>Health</li>
-        <li>Travel information</li>
-        <li>Dubai International</li>
-        <li>To and from the airport</li>
-        <li>Rules and notices</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Destinations</h4>
-      <ul>
-        <li>Route map</li>
-        <li>Africa</li>
-        <li>Asia and Pacific</li>
-        <li>Europe</li>
-        <li>The Americas</li>
-        <li>The Middle East</li>
-        <li>Flights to all countries/territories</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <ul>
-        <li>Cabin features</li>
-        <li>Shop Emirates</li>
-        <li>What's on your flight</li>
-        <li>Inflight entertainment</li>
-        <li>Dining</li>
-        <li>Our lounges</li>
-        <li>Dubai Stopover</li>
-      </ul>
-    </div>
-    <div>
-      <h4>Business</h4>
-      <ul>
-        <li>Log in to Emirates Skywards</li>
-        <li>Join Emirates Skywards</li>
-        <li>Our partners</li>
-        <li>Business Rewards benefits</li>
-        <li>Register your company</li>
-        <li>Emirates Skywards Programme Rules</li>
-      </ul>
-    </div>
-  </div>
-
-  <hr style="margin: 30px 0; border-color: #444;" />
-
-  <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div>
-      <h4>Subscribe to our special offers</h4>
-      <p>Save with our latest fares and offers.</p>
-      <form>
-        <input type="email" placeholder="Email address" style="padding: 10px; width: 200px;" />
-        <button type="submit" style="padding: 10px 15px;">Subscribe</button>
-      </form>
-      <p><a href="#" style="color: #ccc;">Unsubscribe or change your preferences</a></p>
-      <p><a href="#" style="color: #ccc;">privacy policy</a></p>
-    </div>
-
-    <div>
-      <h4>Emirates App</h4>
-      <p>Book and manage your flights on the go.</p>
-      <img src="appstore.png" alt="App Store" style="height: 40px; margin: 5px;" />
-      <img src="googleplay.png" alt="Google Play" style="height: 40px; margin: 5px;" />
-      <img src="appgallery.png" alt="App Gallery" style="height: 40px; margin: 5px;" />
-    </div>
-
-    <div>
-      <h4>Connect with us</h4>
-      <p>Share your Emirates experience.</p>
-      <div>
-        <a href="https://facebook.com/emirates" target="_blank">
-          <img src="facebook-icon.png" alt="Facebook" style="height: 30px; margin: 5px;" />
-        </a>
-        <a href="https://twitter.com/emirates">
-          <img src="x-icon.png" alt="X" style="height: 30px; margin: 5px;" />
-        </a>
-        <a href="https://linkedin.com/company/emirates">
-          <img src="linkedin-icon.png" alt="LinkedIn" style="height: 30px; margin: 5px;" />
-        </a>
-        <a href="https://www.youtube.com/user/EMIRATES/">
-          <img src="youtube-icon.png" alt="YouTube" style="height: 30px; margin: 5px;" />
-        </a>
-        <a href="https://www.instagram.com/emirates/">
-          <img src="instagram-icon.png" alt="Instagram" style="height: 30px; margin: 5px;" />
-        </a>
-      <a href="https://www.snapchat.com/add/emirates_air">
-        <img src="snapchat-icon.png" alt="Snapchat" style="height: 30px; margin: 5px;" />
-      </a>
-      <a href="https://www.tiktok.com/@emirates">
-        <img src="tiktok-icon.png" alt="TikTok" style="height: 30px; margin: 5px;" />
-      </a>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <hr style="margin: 30px 0; border-color: #444;" />
-
-  <div style="font-size: 14px; text-align: center;">
-    <a href="#">Accessibility statement</a> |
-    <a href="#">Contact us</a> |
-    <a href="#">Privacy policy</a> |
-    <a href="#">Terms and conditions</a> |
-    <a href="#">Cookie Policy</a> |
-    <a href="#">Cybersecurity</a> |
-    <a href="#">Sitemap</a>
-    <p style="margin-top: 10px;">© 2025 The Emirates Group. All Rights Reserved.</p>
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- Footer Section -->
-<!-- <table width="100%" cellpadding="20" cellspacing="0" bgcolor="#1a1a1a" style="color: white;">
+<!-- Footer Section -->
+<table cellpadding="20" cellspacing="0">
   <tr>
-    <td align="center">
-      <table width="90%" cellpadding="10">
-        <tr valign="top">
-          <td><b>About us</b><br>About us<br>Careers<br>Media Centre<br>Our planet<br>Our people<br>Our communities</td>
-          <td><b>Help</b><br>Help and Contact<br>Travel Updates<br>Special Assistance<br>FAQs</td>
-          <td><b>Book</b><br>Book flights<br>Travel services<br>Transportation<br>Planning your trip<br>Dubai Experience</td>
-          <td><b>Manage</b><br>Check-in<br>Manage your booking<br>Chauffeur drive<br>Flight status</td>
-        </tr>
-        <tr valign="top">
-          <td><b>Before you fly</b><br>Baggage<br>Visa and passport info<br>Health<br>Travel info<br>Dubai International<br>To and from the airport<br>Rules and notices</td>
-          <td><b>Where we fly</b><br>Route map<br>Africa<br>Asia and Pacific<br>Europe<br>The Americas<br>The Middle East<br>All destinations</td>
-          <td><b>Experience</b><br>Cabin features<br>Shop Emirates<br>What's on your flight<br>Inflight entertainment<br>Dining<br>Our lounges<br>Dubai Stopover</td>
-          <td><b>Loyalty</b><br>Log in to Emirates Skywards<br>Join Emirates Skywards<br>Our partners<br>Business Rewards benefits<br>Register your company<br>Programme Rules</td>
-        </tr>
-        <tr>
-          <td colspan="2"><b>Subscribe to our special offers</b><br>Save with latest fares and offers.<br><u>Unsubscribe or change preferences</u></td>
-          <td><b>Emirates App</b><br>Book and manage your flights on the go.</td>
-          <td><b>Connect with us</b><br>Share your Emirates experience.</td>
-        </tr>
-      </table>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emirates</td>
+    <td>Book a flight</td>
+  </tr>
+</table>
+<table width="90%" cellpadding="10" align="center">
+  <tr valign="top">
+    <td width="25%">
+      <b>About us</b><br><br>About us<br>Careers<br>Media Centre<br>Our planet<br>Our people<br>Our communities
+    </td>
+    <td width="25%">
+      <b>Help</b><br><br>Help and Contact<br>Travel Updates<br>Special Assistance<br>FAQs
+    </td>
+    <td width="25%">
+      <b>Book</b><br><br>Book flights<br>Travel services<br>Transportation<br>Planning your trip<br>Dubai Experience
+    </td>
+    <td width="25%">
+      <b>Manage</b><br><br>Check-in<br>Manage your booking<br>Chauffeur drive<br>Flight status
     </td>
   </tr>
-</table> -->
+
+  <tr>
+    <td colspan="4"><hr></td>
+  </tr>
+
+  <tr valign="top">
+    <td width="25%">
+      <b>Before you fly</b><br><br>Baggage<br>Visa and passport info<br>Health<br>Travel info<br>Dubai International<br>To and from the airport<br>Rules and notices
+    </td>
+    <td width="25%">
+      <b>Where we fly</b><br><br>Route map<br>Africa<br>Asia and Pacific<br>Europe<br>The Americas<br>The Middle East<br>All destinations
+    </td>
+    <td width="25%">
+      <b>Experience</b><br><br>Cabin features<br>Shop Emirates<br>What's on your flight<br>Inflight entertainment<br>Dining<br>Our lounges<br>Dubai Stopover
+    </td>
+    <td width="25%">
+      <b>Loyalty</b><br><br>Log in to Emirates Skywards<br>Join Emirates Skywards<br>Our partners<br>Business Rewards benefits<br>Register your company<br>Programme Rules
+    </td>
+  </tr>
+</table>
 
 
+  <hr>
+  <table width="100%" border="0">
+    <tr>
+      <!-- Subscribe Section -->
+      <td width="33%" valign="top">
+        <h4>Subscribe to our special offers</h4>
+        <p>Save with our latest fares and offers.</p>
+        <p><a href="#">Unsubscribe or change your preferences</a></p>
+        <form>
+          <input type="email" placeholder="Email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p>
+          For details on how we use your information,<br>
+          please see our <a href="#">privacy policy</a>
+        </p>
+      </td>
 
+      <!-- Emirates App Section -->
+      <td width="33%" valign="top">
+        <h4>Emirates App</h4>
+        <p>Book and manage your flights on the go.</p>
+        <img src="images/footer-1.svg" alt="App Store" height="40" />
+        <img src="images/footer-2.svg" alt="Google Play" height="40" /><br>
+        <img src="images/footer-3.svg" alt="App Gallery" height="40" />
+      </td>
 
-
-
-
-
-
-
-
+      <!-- Social Media Section -->
+      <td width="33%" valign="top">
+        <h4>Connect with us</h4>
+        <p>Share your Emirates experience.</p>
+        <a href="https://facebook.com/emirates"><img src="images/fa-1.jpg" alt="Facebook" height="30" /></a>
+        <a href="https://twitter.com/emirates"><img src="images/tw-2.jpg" alt="X" height="30" /></a>
+        <a href="https://linkedin.com/company/emirates"><img src="images/link-3.jpg" alt="LinkedIn" height="30" /></a>
+        <a href="https://www.youtube.com/user/EMIRATES/"><img src="images/you-4.jpg" alt="YouTube" height="30" /></a>
+        <a href="https://www.instagram.com/emirates/"><img src="images/inta-5.jpg" alt="Instagram" height="30" /></a>
+        <a href="https://www.snapchat.com/add/emirates_air"><img src="images/sna-6.jpg" alt="Snapchat" height="30" /></a>
+        <a href="https://www.tiktok.com/@emirates"><img src="images/tic-7.jpg" alt="TikTok" height="30" /></a>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Bottom Links Section -->
+  <table align="left">
+    <tr>
+      <td align="left">
+        <a href="#">Accessibility statement</a> &nbsp;
+        <a href="#">Contact us</a> &nbsp;
+        <a href="#">Privacy policy</a> &nbsp;
+        <a href="#">Terms and conditions</a> &nbsp;
+        <a href="#">Cookie Policy</a> &nbsp;
+        <a href="#">Cybersecurity</a> &nbsp;<br>
+        <a href="#">Modern Slavery Act transparency statement</a> &nbsp;
+        <a href="#">Sitemap</a>
+        <br><br>
+        <p>© 2025 The Emirates Group. All Rights Reserved.</p>
+      </td>
+    </tr>
+  </table>
+</footer>
 </body>
 </html>
-
-
-
-
-
-
-
-  <!-- Centered Logo -->
-  <!-- <tr>
-    <td align="center" bgcolor="red" width="50px" height="100px">
-      <img src="https://c.ekstatic.net/ecl/logos/emirates/emirates-logo-badge.svg?h=d-52wmsnqryhi7L83BAKpg">
-    </td>
-  </tr> -->
